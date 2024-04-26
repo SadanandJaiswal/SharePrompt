@@ -34,3 +34,48 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+# Starting With Project
+
+### Create the necessary Folder
+- app
+- components
+- models
+- publi/assets
+- styles (add globals.css file and add the styling in that)
+- utils
+
+### Create files in app folder
+- layout.jsx
+- page.jsx
+
+** Importing files: '@folder_in_root_directory/filename'
+- example: '@styles/globals.css'
+
+** remove / from path in jsconfig.js
+
+** Complete the page.jsx and layout.jsx of app folder
+
+** Connect to DB
+
+** Create user Model
+
+** Create auth api
+- go to console.cloud.google.com
+- create project
+- create credential (OAuth)
+- create session, signIn function 
+
+** Go to openssl terminal (online) and run command to generate random secret to encrypt 
+
+### Create new Prompt
+- create prompt model if does not exist
+- create folder create-prompt in app/api folder
+- create the create-prompt form ui
+- create the api/prompt/new/route.js (POST api to create new prompt)
+- connect the create-prompt form with the api
+
+** We will need to use connectToDB() everytime a new api is made
+
+
